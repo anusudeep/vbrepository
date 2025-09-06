@@ -1,0 +1,20 @@
+{
+  // Name for your development container
+  "name": ".NET VB.NET",
+
+  // Use the official Microsoft .NET container image.
+  // This includes the .NET SDK and other necessary tools.
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0-bookworm-slim",
+
+  // Extensions to install automatically inside the Codespace.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // This is the key extension from Microsoft.
+        // It provides the Solution Explorer, debugging, and language support
+        // for all .NET languages, including Visual Basic.
+        "ms-dotnettools.csdevkit"
+      ]
+    }
+  }
+}
